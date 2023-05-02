@@ -27,8 +27,8 @@ class Layer {
     constructor(image, speedModifier){
         this.x = 0;
         this.y = 0;
-        this.width = 1200;
-        this.height = 360;
+        this.width = 2400;
+        this.height = 700;
         this.image = image;
         this.speedModifier = speedModifier;
         this.speed = gameSpeed * this.speedModifier;
